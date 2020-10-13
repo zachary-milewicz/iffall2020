@@ -24,7 +24,7 @@ h1, h2 {
 img {
     width: 100%;
 }
-a {
+.cast li {
     width: 25%;
 }
 .selected {
