@@ -1,0 +1,10 @@
+.portrait {
+    float: left;
+    margin-top: 0rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+}
+.instructions {
+    clear: both;
+}
