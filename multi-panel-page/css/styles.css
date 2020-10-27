@@ -90,10 +90,12 @@ h5 {
     margin: auto;
 }
 
-.gird li {
-    width:50%;
+.grid li {
     display:block; 
-    display: inline-block;
+}
+
+ul.grid {
+    list-style-type: none;
 }
 
 .small-photo {
