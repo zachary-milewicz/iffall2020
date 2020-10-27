@@ -1,0 +1,118 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url(https://wustl.edu/wp-content/uploads/2014/09/hero-visit2.jpg);
+    background-size: cover; 
+    text-align: center;
+    padding-top: 150px;
+    height: 330px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0 0 0 0;
+}
+h2 {
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+
+.column-container {
+    width: 960px;
+    margin: auto;
+}
+
+.dark {
+    background-color: rgb(165, 20, 23);
+    height: 683px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10.5px;
+    margin-bottom: 35px;
+}
+
+.photograph {
+    height: 300px;
+    width: 400px;
+    float:right; 
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding-top: 30px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.medium {
+    background-color: rgb(108, 115, 115);
+    height: 659px;
+}
+
+.light {
+    background-color: rgb(0, 115, 96);
+    height: 375px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10.5px;
+    width: 710px;
+    margin: auto;
+    line-height: 35px;
+}
+
+h5 {
+    width: 960px;
+    margin: auto;
+    margin-top: 41px;
+    font-size: 17px;
+    background-color: white;
+}
+
+.grid {
+    display:grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+    width: 960px;
+    margin: auto;
+}
+
+.gird li {
+    width:50%;
+    display:block; 
+    display: inline-block;
+}
+
+.small-photo {
+    width: 200px;
+    height: 150px;
+    margin-right:12px; 
+    float:left; 
+    margin-bottom: 23px;
+}
+
+.photo-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.photo-caption {
+    font-size: 17px;
+    margin-right:50px;
+    margin-top: 6px;
+    line-height: 26px;
+    font-weight: 600;
+}
