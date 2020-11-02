@@ -1,0 +1,53 @@
+body {
+    max-width: 960px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.oreo {
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ingredients{
+    width: 100%; 
+}
+#directions {
+    width: 100%; 
+}
+
+  @media (min-width:640px){
+    #ingredients{
+        width: 50%; 
+    }
+    #directions {
+        width: 50%; 
+    }
+}
+
+@media (max-width:640px){
+    .oreo {
+        width: 100px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+}
