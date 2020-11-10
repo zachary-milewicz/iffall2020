@@ -1,0 +1,94 @@
+body {
+    max-width: 960px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #BBBCBC;
+}
+
+h1 {
+    color: #003087;
+    font-weight: bold;
+}
+
+h2 {
+    color: #003087;
+}
+
+p {
+    color: #272425;
+}
+
+ul {
+    color: #272425;
+}
+
+ol {
+    color: #272425;
+}
+
+.oreo {
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.oreo2 {
+    width: 30%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+header {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ingredients{
+    width: 100%; 
+}
+#directions {
+    width: 100%; 
+}
+
+  @media (min-width:640px){
+    #ingredients{
+        width: 50%; 
+    }
+    #directions {
+        width: 50%; 
+    }
+}
+
+.info {
+    background-color:#7CC6F2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+a {
+    color: #003087;
+  }
