@@ -4,7 +4,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-family: 'Hind Siliguri', sans-serif;
-    background-color: #BBBCBC;
+    background-color: white;
 }
 
 h1 {
@@ -29,7 +29,7 @@ ol {
 }
 
 .oreo {
-    width: 50%;
+    width: 90%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -38,14 +38,14 @@ ol {
 }
 
 .oreo2 {
-    width: 30%;
+    width: 60%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
     border-radius: 10px;
     transform: rotate(-90deg);
-    margin-top: -50px;
+    margin-top: -70px;
     margin-bottom: -50px;
 }
 
@@ -79,7 +79,7 @@ section {
 }
 
 .info {
-    background-color:#7CC6F2;
+    background-color:lightgray;
     margin-top: 10px;
     margin-bottom: 20px;
     width: 30%;
