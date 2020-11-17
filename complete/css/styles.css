@@ -1,0 +1,95 @@
+body {
+    max-width: 960px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: white;
+}
+
+h1 {
+    color: #003087;
+    font-weight: bold;
+}
+
+h2 {
+    color: #003087;
+}
+
+p {
+    color: #272425;
+}
+
+ul {
+    color: #272425;
+}
+
+ol {
+    color: #272425;
+}
+
+.oreo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 7px;
+}
+
+.oreo2 {
+    width: 60%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 7px;
+    transform: rotate(-90deg);
+    margin-top: -70px;
+    margin-bottom: -50px;
+}
+
+header {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ingredients{
+    width: 100%; 
+}
+#directions {
+    width: 100%; 
+}
+
+  @media (min-width:640px){
+    #ingredients{
+        width: 50%; 
+    }
+    #directions {
+        width: 50%; 
+    }
+}
+
+.info {
+    background-color:lightgray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: .05px;
+    padding-bottom: .05px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 7px;
+}
+a {
+    color: #003087;
+  }

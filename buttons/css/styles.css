@@ -1,0 +1,528 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_coke {
+    display: inline-block;
+    height: 80px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: ease-in-out 1.2s;
+    color: red;
+    font-family: 'Lobster', cursive;
+}
+
+a#btn_coke:hover {
+    background-color: red;
+    color: white;
+}
+
+a#btn_apple {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 55px;
+    background-color: #555555;
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    transition: all .2s;
+}
+
+a#btn_apple:hover {
+    background-color: #fff;
+    color: #555555;
+}
+
+a#btn_lyft {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 55px;
+    color: #FF00BF;
+    text-align: center;
+    font-size: 100px;
+    transition: all .2s;
+}
+
+a#btn_lyft:hover {
+    color: #11111F;
+    text-shadow: 0px 0px 12px rgba(255, 0, 191, 1);
+}
+
+a#btn_instagram {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 55px;
+    color:  white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    text-align: center;
+    font-size: 100px;
+    transition: all .2s;
+}
+
+a#btn_instagram:hover {
+    text-shadow: 4px 4px 14px rgba(255, 255, 255, 1);}
+
+a#btn_facebook {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 55px;
+    color: #4267B2;
+    text-align: center;
+    font-size: 100px;
+    transition: all .2s;
+}
+
+a#btn_facebook:hover {
+    background-color: #4267B2;
+    color: white;
+}
+
+a#btn_samsung img  {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    transition: all .2s;
+}
+
+a#btn_samsung:hover img {
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 245, 1);
+}
+
+a#btn_harley-davidson #harley-davidson-img1  {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    transition: all .2s;
+    z-index: 1;
+}
+
+a#btn_harley-davidson:hover #harley-davidson-img1 {
+    z-index: 0;
+    width: 0px;
+}
+
+
+a#btn_harley-davidson:hover #harley-davidson-img2 {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    transition: ease .1s;
+    z-index: 100;
+}
+
+a#btn_ibm  {
+    display: block;
+    width: 200px;
+    height: 135px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("https://sslinvest.com/wp-content/uploads/2018/11/IBM.jpg");
+    background-size: 200px;
+    background-position: center;
+}
+
+a#btn_ibm:hover {
+    background-image:url("https://www.extremetech.com/wp-content/uploads/2011/08/ibm-pc.jpg");
+}
+
+a#btn_nike  {
+    display: block;
+    font-size: 80px;
+    font-family: Futura;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    margin-top: 70px;
+}
+
+a#btn_nike:hover {
+    color: red;
+    letter-spacing: 15px;
+}
+
+
+a#btn_old-navy {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 40px 0 40px;
+    background-color: #163E69;
+    border: 2px solid #163E69;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+}
+
+a#btn_old-navy:hover {
+    background-color: #fff;
+    border: 2px solid #163E69;
+    color: #163E69;
+}
+
+a#btn_npr {
+    display: inline-block;
+    height: 120px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 40px 0 40px;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border: black;
+    background-color: blue;
+    border-style: dashed;
+    border-width: thin;
+}
+
+a#btn_npr:hover {
+    background: red;
+    transition-timing-function: ease;
+    color: white;
+    border-width: thick;
+}
+
+a#btn_ideo {
+    display: inline-block;
+    height: 120px;
+    width: 240px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: black;
+    border-style: dotted;
+    border-width: 10px;
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+}
+
+a#btn_ideo:hover {
+    transition-timing-function: linear;
+    transition: 1.2s;
+    color:black;
+    border-width: 0px;
+    font-size: 70px;
+}
+
+a#btn_nerf img  {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    transition: all .2s;
+}
+
+a#btn_nerf:hover img {
+    transform: scale(.25) rotate(180deg);
+    transition: all .5s;
+}
+
+a#btn_tesla img  {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    transition: all .2s;
+}
+
+a#btn_tesla:hover img {
+    transform: rotate(360deg);
+    transition: all 1.5s;
+}
+
+a#btn_army img  {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    transition: all .2s;
+}
+
+a#btn_army:hover img {
+    transform: scale(2);
+    transition: all 1s;
+}
+
+a#btn_missouri-botanical-garden  {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    font-family: 'Martel', serif;
+    transition: all 1.5s;
+}
+
+a#btn_missouri-botanical-garden:hover {
+    transition: all 1.5s;
+    font-size: 40px;
+    transform: rotate(-360deg);
+    margin-top: 10px;
+}
+
+a#btn_newyorker  {
+    background-color: rgb(18,18,18);
+    display: inline-block;
+    margin-left: -20px;
+    margin-top: -20px;
+    width: 300px;
+    height: 300px;
+}
+
+a#btn_newyorker img  {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 45px;
+    transition: all .2s;
+}
+
+a#btn_newyorker:hover img {
+    transform: scale(2);
+    transition: all 1s;
+    transform: rotateY(180deg);
+}
+
+a#btn_michael-kors img  {
+    display: block;
+    width: 240px;
+    height: auto;
+    margin: auto;
+    margin-top: 55px;
+    transition: all .2s;
+}
+
+a#btn_michael-kors:hover img {
+    transition: all 4s;
+    transform: rotateY(2160deg);
+}
+
+a#btn_craigslist {
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    color: purple;
+    transition: all .2s;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+a#btn_craigslist:hover {
+    transition: all 1s;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9e5fcb+0,7512ae+50,b148de+100 */
+background: #9e5fcb; /* Old browsers */
+background: -moz-linear-gradient(top,  #9e5fcb 0%, #7512ae 50%, #b148de 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #9e5fcb 0%,#7512ae 50%,#b148de 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #9e5fcb 0%,#7512ae 50%,#b148de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e5fcb', endColorstr='#b148de',GradientType=0 ); /* IE6-9 */
+    color: white;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+a#btn_cartoon-network img  {
+    display: block;
+    width: 240px;
+    height: auto;
+    margin: auto;
+    margin-top: 55px;
+    transition: all .2s;
+}
+
+a#btn_cartoon-network:hover img {
+    transition: all 1s;
+    filter: grayscale(100%) blur(1px);
+}
