@@ -1,0 +1,457 @@
+body {
+    background-color: rgb(253, 244, 210);
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.symbol {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(188, 226, 202);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    white-space: nowrap; 
+}
+
+
+div.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 20px;
+    }
+
+.menu1 {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+    font-size: 15px;
+    background-color: rgba(188, 226, 202, 38%);
+}
+
+.menu1.current {
+    background-color: rgb(188, 226, 202);
+}
+
+.menu-hanbok {
+    margin-top: 20px;
+}
+.menu-construction {
+    margin-top: 5px;
+}
+.menu-social {
+    margin-top: 25px;
+}
+.menu-occasions {
+    margin-top: 0px;
+}
+
+
+h2 {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+}
+p {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+}
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  .row {
+      display: flex;
+  }
+
+  
+  .column.lady1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column.main {
+    width: 70%;
+  }
+
+  img.lady {
+      width: 70%;
+      height: auto;
+      margin: auto;
+  }
+
+  .column.main.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+  }
+
+  img.gallery-image {
+      width: auto;
+      height: 180px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+  }
+
+  div.gallery {
+      width: 90vw;
+      margin: auto;
+  }
+
+  .construction-box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+    .color1 {
+      background-color: rgba(176, 211, 233, 75%);
+    }
+    .color2 {
+        background-color: rgba(217, 187, 201, 75%);
+    }
+    .color3 {
+        background-color: rgba(197, 189, 208, 75%);
+    }
+
+  .colorsh3 {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+    text-align: center;
+  }
+
+  .colorsp {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+  }
+
+  .construction-sub {
+    display: flex;
+  }
+
+  .diagram-image {
+      padding-bottom: 20px;
+      width: 80%;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .diagram-label {
+      background-color: rgba(188, 226, 202, 75%);
+      width: 200px;  
+      padding-bottom: 10px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+
+  .diagram-title {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .diagram-labels {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+    margin-left: 20px;
+  }
+
+  .social-sub {
+      display: flex;
+  }
+
+  .symbols {
+    background-color: rgba(188, 226, 202, 75%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    width: 80%;
+  }
+
+    .symbols h4 {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+    text-align: center;
+  }
+
+  .nine-symbols {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+    padding-right: 10px;
+    font-size: 12px;
+  }
+
+  .nine-symbols span {
+      font-weight: 300;
+  }
+
+  .social-image {
+      width: auto;
+      height: 200px;
+      margin: auto;
+      padding-left: 20px;
+  }
+
+  .occasions-sub {
+    font-family: source-han-sans-korean,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(88, 84, 79);
+  }
+  .occasion-main {
+      padding-bottom: 20px;
+  }
+
+
+  @media screen and (max-width: 993px) {
+    .menu1 {
+        margin-top: 0px;
+        margin-bottom: 12px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .symbol {
+        line-height: 290px;
+        font-size: 100px;
+        text-align: center;
+        width: 50%;
+        display: inline;
+    }
+    div.menu {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-content: center;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-right: 20px;
+        }
+        .menu-hanbok {
+            margin-right: 20px;
+        }
+        .menu-construction {
+            margin-right: 5px;
+        }
+        .menu-social {
+            margin-right: 35px;
+        }
+        .menu-occasions {
+            margin-right: -5px;
+        }
+        .menu1 {
+            width: 250px;
+        }
+  }
+
+  @media screen and (max-width: 800px) {
+    .column.lady1 {
+        width: 0%;
+      }  
+      .column.main {
+        width: 90%;
+        display: block;
+        margin: auto;
+      }
+      .construction-sub {
+          width: 100%;
+      }
+      .colors3 {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .diagram-image {
+        width: 60%;  
+        display: flex;
+        flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 20px;
+      }
+      .diagram-label {
+        background-color: rgba(188, 226, 202, 75%);
+        width: 80%;  
+      flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+    .diagram-sub {
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+    }
+    .diagram {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    
+    }
+
+  @media screen and (max-width: 600px) {
+    .menu1 {
+      margin-top: 0px;
+      margin-bottom: 12px;
+      margin-right: auto;
+      margin-left: auto;
+        width: 200px;
+    }
+    .top {
+        display: block;
+    }
+    div.menu {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-content: center;
+        }
+
+        .menu-hanbok {
+            margin-right: 20px;
+        }
+        .menu-construction {
+            margin-right: 5px;
+        }
+        .menu-social {
+            margin-right: 35px;
+        }
+        .menu-occasions {
+            margin-right: -5px;
+        }
+
+    h1.symbol {
+        margin-bottom: 0px;
+    }
+    .column.lady1 {
+        width: 0%;
+      }  
+      .column.main {
+        width: 90%;
+        display: block;
+        margin: auto;
+      }
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .social-sub {
+        flex-direction: column-reverse;
+        }
+    .symbols {
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        margin: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 20px;
+        width: 90%;
+      }
+    
+      .social-image {
+          width: 50%;
+          height: auto;
+          margin: auto;
+          display: block;
+          padding-top: 0px;
+          padding-bottom: 20px;
+          padding-left: 0px;
+      }
+      .column.main.gallery {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+      img.gallery-image {
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .colors3 {
+        width: 100%;
+        height: auto;
+      }
+  
+    .construction-sub {
+        width: 100%;
+        display: block;
+    }
+  
+    .diagram-image {
+      width: 70%;  
+      display: block;
+      margin: auto;
+    }
+  
+    
+      .symbol {
+        line-height: normal;
+        font-size: 75px;
+        text-align: center;
+        width: auto;
+        padding-bottom: 20px;
+    }
+  }
