@@ -9,6 +9,7 @@ body {
 
 .top {
     display: flex;
+    margin-bottom: 0px;
 }
 
 .symbol {
@@ -110,6 +111,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 20px;
   }
 
   img.gallery-image {
@@ -125,11 +127,6 @@ p {
       width: 90vw;
       margin: auto;
   }
-
-  .colors3 {
-      width: 60%;
-      height: auto;
-    }
 
   .construction-box {
     padding-top: 5px;
@@ -166,27 +163,24 @@ p {
   }
 
   .construction-sub {
-      width: 70vw;
-      display: flex;
+    display: flex;
   }
 
   .diagram-image {
-    width: 80%;  
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
       padding-bottom: 20px;
+      width: 80%;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
   }
 
   .diagram-label {
       background-color: rgba(188, 226, 202, 75%);
-      width: 80%;  
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
+      width: 200px;  
       padding-bottom: 10px;
       padding-top: 5px;
       margin-bottom: 20px;
+      margin-left: 20px;
   }
 
   .diagram-title {
@@ -217,6 +211,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
+    margin-bottom: 30px;
     padding-top: 5px;
     width: 80%;
   }
@@ -255,10 +250,8 @@ p {
     font-style: normal;
     color: rgb(88, 84, 79);
   }
-
-  .diagram {
-    display: inline;
-    flex-wrap: wrap;
+  .occasion-main {
+      padding-bottom: 20px;
   }
 
 
@@ -270,10 +263,11 @@ p {
         margin-left: auto;
       }
       .symbol {
-        line-height: 292px;
+        line-height: 290px;
         font-size: 100px;
         text-align: center;
-        width: 40%;
+        width: 50%;
+        display: inline;
     }
     div.menu {
         flex-direction: column;
@@ -282,6 +276,9 @@ p {
         align-content: center;
         padding-left: 0px;
         padding-top: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-right: 20px;
         }
         .menu-hanbok {
             margin-right: 20px;
@@ -300,14 +297,72 @@ p {
         }
   }
 
+  @media screen and (max-width: 800px) {
+    .column.lady1 {
+        width: 0%;
+      }  
+      .column.main {
+        width: 90%;
+        display: block;
+        margin: auto;
+      }
+      .construction-sub {
+          width: 100%;
+      }
+      .colors3 {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .diagram-image {
+        width: 60%;  
+        display: flex;
+        flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 20px;
+      }
+      .diagram-label {
+        background-color: rgba(188, 226, 202, 75%);
+        width: 80%;  
+      flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+    .diagram-sub {
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+    }
+    .diagram {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    
+    }
+
   @media screen and (max-width: 600px) {
+    
+    .symbol {
+        line-height: normal;
+        font-size: 75px;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
     .menu1 {
       margin-top: 0px;
       margin-bottom: 12px;
       margin-right: auto;
       margin-left: auto;
-    }
-    .menu1 {
         width: 200px;
     }
     .top {
@@ -400,16 +455,5 @@ p {
       width: 70%;  
       display: block;
       margin: auto;
-    }
-  
-    .diagram {
-        width: 100%;  
-      }
-      .symbol {
-        line-height: normal;
-        font-size: 75px;
-        text-align: center;
-        width: auto;
-        padding-bottom: 20px;
     }
   }
